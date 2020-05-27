@@ -21,6 +21,13 @@ import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup';
 
 const categories = [
     {
+        id: 'Natural Language Processing',
+        children: [
+            { id: 'Diagnosis', icon: <SettingsIcon /> },
+            { id: 'Therapy', icon: <TimerIcon /> },
+        ],
+    },
+    {
         id: 'Image Recognition',
         children: [
             { id: 'Diabetic Retino', icon: <PeopleIcon />, active: true },
