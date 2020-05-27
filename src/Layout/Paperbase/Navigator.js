@@ -21,22 +21,22 @@ import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup';
 
 const categories = [
     {
-        id: 'Develop',
+        id: 'Image Recognition',
         children: [
-            { id: 'Authentication', icon: <PeopleIcon />, active: true },
-            { id: 'Database', icon: <DnsRoundedIcon /> },
-            { id: 'Storage', icon: <PermMediaOutlinedIcon /> },
-            { id: 'Hosting', icon: <PublicIcon /> },
-            { id: 'Functions', icon: <SettingsEthernetIcon /> },
-            { id: 'ML Kit', icon: <SettingsInputComponentIcon /> },
+            { id: 'Diabetic Retino', icon: <PeopleIcon />, active: true },
+            { id: 'Tuberclosis', icon: <DnsRoundedIcon /> },
+            { id: 'Pneumonia', icon: <PermMediaOutlinedIcon /> },
+            { id: 'Finger blood test', icon: <PublicIcon /> },
+            { id: 'Heart Diesease (eye ball)', icon: <SettingsEthernetIcon /> },
+            { id: 'Breast Cancer', icon: <SettingsInputComponentIcon /> },
         ],
     },
     {
-        id: 'Quality',
+        id: 'Voice Recognition',
         children: [
-            { id: 'Analytics', icon: <SettingsIcon /> },
-            { id: 'Performance', icon: <TimerIcon /> },
-            { id: 'Test Lab', icon: <PhonelinkSetupIcon /> },
+            { id: 'Parkinsons Disease', icon: <SettingsIcon /> },
+            { id: 'Type of Coughs', icon: <TimerIcon /> },
+            { id: 'COVID-19 Detector', icon: <PhonelinkSetupIcon /> },
         ],
     },
 ];
